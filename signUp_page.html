@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title >signUp your account</title>
+    <style>
+        fieldset{
+            color: whitesmoke;
+            border-color: yellow;
+        }
+        input[type="text"]{
+            color: red;
+        }
+        input[type="password"]{
+            color: blue;
+        }
+        .ssup{
+            background-color: yellow;
+
+        }
+        .bimg{
+            background-image: url('https://img.freepik.com/free-vector/realistic-galaxy-background_23-2148991322.jpg?w=740&t=st=1689264923~exp=1689265523~hmac=bffdb41e32832c6dc2bdba326bca65e5dd7b9cf20f336ed878c5336335922dd6');
+            margin: auto;
+            background-size: 120%;
+
+        }
+    </style>
+
+</head>
+<body class="bimg">
+    <h3 style="color: red;">signup for create account</h3>
+    <form>
+        <fieldset>
+        <legend>SIGNUP</legend>
+        <label id="fname">Enter your first name: </label>
+        <input type="text" name="fname" id="fname" placeholder="xyxyxy" required><br><br>
+        <label id="fname">Enter your last name: </label>
+        <input type="text" name="lname" id="lname" placeholder="xyxyxy" required><br><br>
+        <label id="pword">Enter your password: </label>
+        <input type="password" name="pword" id="pword" required><br><br>
+        <label id="cpword">Re enter your password: </label>
+        <input type="password" name="cpword" id="cpword" required><br><br>
+        <label id="emailid">enter your mail: </label>
+        <input type="email" name="email" id="emilid" placeholder="exmaple@gmail.com" required><br><br>
+        <label id="pno">Enter your phone no: </label>
+        <input type="number" name="num" id="pno" placeholder="numberonly"><br><br>
+        <label id="date">enter DOB</label>
+        <input type="date" name="date" id="date">
+        <br><br>
+        <label for="select">gender</label>
+        <select name="select" id="select">
+        <option value="male" name="gender" id="select">male</option>
+        <option value="female" name="gender" id="select">female</option>
+        <option value="others" name="gender" id="select">others</option>
+        </select><br><br>
+        <input type="reset" name="reset" value="clear"><br><br>
+    </fieldset>
+    </form>
+  <button class="ssup" > <a href="loginPage.html">sign up</a></button>
+   
+
+</body>
+</html>
